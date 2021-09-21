@@ -40,7 +40,7 @@
 
 - 3.2 或者直接通过命令行工具 javap, 执行命令: ` javap -v Hello.class ` 
 
-4. 分析相关的字节码。参考: HelloByteCode.txt
+4. 分析相关的字节码。参考: [HelloByteCode.txt](01jvm/HelloByteCode.txt)
 
 
 
@@ -56,7 +56,7 @@
 8. 创建实例，以及调用方法
 9. 执行.
 
-具体代码可参考: [XlassLoader.java](https://github.com/JavaCourse00/JavaCourseCodes/blob/main/01jvm/XlassLoader.java)
+具体代码可参考: [XlassLoader.java](https://github.com/CorwinZheng/JavaCourse/blob/main/01jvm/XClassloader/src/main/java/com/zheng/Xlassloader/XlassLoader.java)
 
 
 
@@ -81,6 +81,8 @@ JVM进程空间中的内存一般来说包括以下这些部分:
 - 栈内存 = n * Xss
 
 另外，规范与实现的区别, 需要根据具体实现以及版本, 才能确定。 一般来说，由于目的是为了排查故障和诊断问题，所以大致弄清楚这些参数和空间的关系即可。 具体设置时需要留一些冗余量。
+
+具体关系图可参考：[JVM内存相关参数.png](01jvm/JVM内存相关参数.png)
 
 
 
