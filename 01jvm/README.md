@@ -40,7 +40,7 @@
 
 - 3.2 或者直接通过命令行工具 javap, 执行命令: ` javap -v Hello.class ` 
 
-4. 分析相关的字节码。参考: [HelloByteCode.txt](01jvm/HelloByteCode.txt)
+4. 分析相关的字节码。参考: [HelloByteCode.txt](https://github.com/CorwinZheng/JavaCourse/blob/main/01jvm/HelloByteCode.txt)
 
 
 
@@ -82,7 +82,7 @@ JVM进程空间中的内存一般来说包括以下这些部分:
 
 另外，规范与实现的区别, 需要根据具体实现以及版本, 才能确定。 一般来说，由于目的是为了排查故障和诊断问题，所以大致弄清楚这些参数和空间的关系即可。 具体设置时需要留一些冗余量。
 
-具体关系图可参考：[JVM内存相关参数.png](01jvm/JVM内存相关参数.png)
+具体关系图可参考：[JVM内存相关参数.png](https://github.com/CorwinZheng/JavaCourse/blob/main/01jvm/JVM%E5%86%85%E5%AD%98%E7%9B%B8%E5%85%B3%E5%8F%82%E6%95%B0.png)
 
 
 
